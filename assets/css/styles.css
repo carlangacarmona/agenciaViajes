@@ -1,0 +1,23 @@
+#card-inferior {
+    padding-bottom: 100px;
+}
+#card-titulo {
+    padding: 10px 10px 0px 10px;
+
+}
+#card-info {
+    margin: 0px 10px 0px 10px;
+}
+
+#navegacion {
+    background-color: #051B54 !important;
+}
+
+#boton-sesion {
+    background-color: #FFFFFF33;
+}
+
+.menu-navega {
+    padding: 0;
+
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroVia Express</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background-color: #7de2df;
+            color: #000;
+            padding: 20px;
+        }
+        .hero-section img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <div class="container my-4 menu-navega">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="navegacion">
+        <a class="navbar-brand" href="#">AeroVia Express</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ofertas y destinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mis viajes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Centro de ayuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Estado de vuelo</a>
+                </li>
+                <li class="nav-item" id="boton-sesion">
+                    <a class="btn btn-outline-light" href="#">Iniciar Sesión</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+    <!-- RECUADRO Y FOTO INFORMATIVO -->
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-8 hero-section">
+                <h1>¡Vacaciones de verano!</h1>
+                <p>Vuela por Chile y Sudamérica con hasta 40% de descuento</p>
+                <p>Encuentra paquetes, hoteles, seguros y arriendo de autos en AeroVia Express</p>
+                <a href="#" class="btn btn-link">Compra aquí</a>
+            </div>
+            <div class="col-md-4 p-0">
+                <img src="assets/img/polynesia.jpg" alt="Imagen de vacaciones" width="100%">
+            </div>
+        </div>
+    </div>
+    <!-- PESTAÑAS DEL BUSCADOR -->
+    <div class="search-section container bg-light p-3 rounded shadow">
+        <ul class="nav nav-tabs justify-content-center mb-3">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Vuelos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Paquetes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Hoteles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Autos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Seguros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Upgrade</a>
+            </li>
+        </ul>
+        <!-- FORMULARIO DE BÚSQUEDA -->
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-1">
+                    <select class="form-control">
+                        <option selected>Ida y Vuelta</option>
+                        <option>Solo Ida</option>
+                        <option>Multidestino</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-1">
+                    <select class="form-control">
+                        <option selected>Economy</option>
+                        <option>Business</option>
+                        <option>First Class</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-1">
+                    <select class="form-control">
+                        <option selected>1 pasajero</option>
+                        <option>2 pasajeros</option>
+                        <option>3 pasajeros</option>
+                        <option>4 pasajeros</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" class="form-control" placeholder="Origen">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" class="form-control" placeholder="Destino">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" class="form-control" placeholder="Fecha Ida" onfocus="(this.type='date')">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" class="form-control" placeholder="Fecha Vuelta" onfocus="(this.type='date')">
+                </div>
+                <div class="form-group col-md-1">
+                    <button type="submit" class="btn btn-danger">Buscar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Cards -->
+    <div class="container my-4" id="card-inferior">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/img/ba.jpg" class="card-
+        <div class="card-body">
+          <h5 class="card-title" id="card-titulo">Buenos Aires</h5>
+          <p class="card-text" id="card-info">This is a wider card with su
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary btn-sm">Ver más</button>
+          <small class="text-body-secondary"></small
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/img/mp.jpg" class="card-i
+        <div class="card-body">
+          <h5 class="card-title" id="card-titulo">Machu Pichu</h5>
+          <p class="card-text" id="card-info">This is a wider card with su
+        </div>
+        <div class="card-footer"><button type="button" class="btn btn-primary btn-sm">Ver más</button>
+          <small class="text-body-secondary"></small
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/img/rj.jpg" class="car
+        <div class="card-body">
+          <h5 class="card-title" id="card-titulo">Río de Janeiro</h5>
+          <p class="card-text" id="card-info">This is a wider card with su
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary btn-sm">Ver más</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
